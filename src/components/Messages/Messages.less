@@ -3,15 +3,18 @@
 .Messages {
   height: 80%;
   background-color: aquamarine;
-  overflow: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+
 
   ul {
     width: 60%;
-    margin: 20px auto;
     padding: 0 10px;
     list-style: none;
-    max-height: 550px;
+    height: 550px;
     overflow: auto;
+    margin: auto 0;
   }
 
   li {
